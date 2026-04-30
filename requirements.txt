@@ -1,14 +1,14 @@
-# Telegram Bot SDK
+# Telegram Bot API wrapper
 pyTelegramBotAPI==4.18.0
 
-# MongoDB driver with SRV support
+# MongoDB driver (srv extra required for Atlas connection strings)
 pymongo[srv]==4.7.3
 
-# Background task scheduler
+# Background task scheduling
 APScheduler==3.10.4
 
 # Keep-alive web server for Render
 Flask==3.0.3
 
-# WSGI server (optional, for production Flask)
+# Production WSGI server (optional but recommended on Render)
 gunicorn==22.0.0
