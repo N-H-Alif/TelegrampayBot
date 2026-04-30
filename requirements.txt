@@ -1,4 +1,14 @@
-pyTelegramBotAPI
-pymongo[srv]
-apscheduler
-flask
+# Telegram Bot SDK
+pyTelegramBotAPI==4.18.0
+
+# MongoDB driver with SRV support
+pymongo[srv]==4.7.3
+
+# Background task scheduler
+APScheduler==3.10.4
+
+# Keep-alive web server for Render
+Flask==3.0.3
+
+# WSGI server (optional, for production Flask)
+gunicorn==22.0.0
